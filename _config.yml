@@ -1,0 +1,5 @@
+title: "Mon site Jekyll"
+description: "Site avec le thème Minimal Mistakes"
+theme: minimal-mistakes-jekyll
+url: "https://insiderhackgaming-hub.github.io"
+baseurl: "/mon-site-jekyll"
