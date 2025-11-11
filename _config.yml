@@ -1,5 +1,28 @@
-title: "Mon site Jekyll"
-description: "Site avec le thème Minimal Mistakes"
+remote_theme: pages-themes/minimal@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+
+title: Inside Hack Gaming
+description: Un site dédié aux astuces, cheats, et téléchargements de logiciels de jeux.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://insiderhackgaming-hub.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
 theme: minimal-mistakes-jekyll
-url: "https://insiderhackgaming-hub.github.io"
-baseurl: "/mon-site-jekyll"
+paginate: 5
+paginate_path: "/page:num/"
+timezone: # e.g. Asia/Kolkata
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
