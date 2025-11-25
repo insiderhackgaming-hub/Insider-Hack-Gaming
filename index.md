@@ -15,3 +15,9 @@ Ce site est dédié aux astuces, cheats, et téléchargements de logiciels de je
 - [Les meilleurs cheats pour [Nom du Jeu] en 2025](#)
 <img src="{{ "Phoenix_10_Utilise_limage_tlcharge_comme_fondGarde_la_texture_3 (1)" | relative_url }}" alt="Ma bannière" style="width:100%;">
 ![Bannière du site](/Insider-Hack-Gaming/banniere.png)
+<p align="center">
+  <img src="/Insider-Hack-Gaming/banniere.png" alt="Bannière du site">
+</p>
+<p align="center">
+  <img src="/Insider-Hack-Gaming/banniere.png" alt="Bannière du site" width="100%">
+</p>
