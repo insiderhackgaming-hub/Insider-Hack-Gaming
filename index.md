@@ -1,4 +1,4 @@
----
+![Bannière du site](banniere.png)
 layout: single
 title: "Bienvenue sur Inside Hack Gaming"
 date: 2025-11-11 04:00:00 +0000
