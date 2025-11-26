@@ -14,5 +14,5 @@ Ce site est dédié aux astuces, cheats, et téléchargements de logiciels de je
 - [Astuce pour obtenir des vies illimitées dans [Nom du Jeu]](#)
 - [Les meilleurs cheats pour [Nom du Jeu] en 2025](#)
 <img src="{{ "Phoenix_10_Utilise_limage_tlcharge_comme_fondGarde_la_texture_3 (1)" | relative_url }}" alt="Ma bannière" style="width:100%;">
-![Bannière du site](/Insider-Hack-Gaming/banniere.png)
+
 
