@@ -1,17 +1,18 @@
 ---
 ---
 
-/* On importe le CSS du thème pour ne pas perdre son style */
 @import "{{ site.theme }}";
 
-/* Ici, on ajoute nos propres règles pour corriger la bannière */
-.page-header {
-  /* On s'assure que notre image est bien là et ne se répète pas */
+/* On crée notre propre bannière en haut du site */
+.ma-banniere-personnalisee {
   background-image: url('/banniere.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% auto; /* Largeur à 100%, hauteur automatique */
+  background-position: center top;
   
-  /* On définit une hauteur fixe pour la bannière */
-  height: 400px; /* Ajuste cette valeur comme tu le souhaites */
+  /* La hauteur est définie pour correspondre à l'image */
+  /* !! IMPORTANT : Change cette valeur !! */
+  height: 300px; 
+    
+  width: 100%;
 }
