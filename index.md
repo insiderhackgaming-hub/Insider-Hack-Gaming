@@ -1,3 +1,4 @@
+<div class="ma-banniere-personnalisee"></div>
 ![Bannière du site](banniere.png)
 layout: single
 title: "Bienvenue sur Inside Hack Gaming"
