@@ -1,5 +1,4 @@
-<div class="ma-banniere-personnalisee"></div>
-![Bannière du site](banniere.png)
+<img src="banner.png" alt="Insider Hack Gaming Banner" class="banner">
 layout: single
 title: "Bienvenue sur Inside Hack Gaming"
 date: 2025-11-11 04:00:00 +0000
