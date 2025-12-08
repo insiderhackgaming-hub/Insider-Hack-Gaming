@@ -19,7 +19,7 @@ Site dédié aux **FPS**, aux **astuces**, aux **mods** et aux **téléchargemen
 - Valorant
 - Fortnite
 <div style="text-align:center; margin-bottom:30px;">
-  <img src="/assets/banniere.webp" alt="Insider Hack Gaming banner" style="width:100%; border-radius:10px;">
+  <img src="/Insider-Hack-Gaming/banniere.png" alt="Insider Hack Gaming banner" style="width:100%; border-radius:10px;">
 </div>
 
 
