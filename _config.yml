@@ -1,7 +1,2 @@
-title: Insider Hack Gaming
-description: Site FPS, astuces, mods et téléchargements gaming
-markdown: kramdown
-theme: minima
-minima:
-  skin: dark
+theme: jekyll-theme-hacker
 
