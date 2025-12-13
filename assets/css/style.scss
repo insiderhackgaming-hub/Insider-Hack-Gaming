@@ -10,25 +10,26 @@ html, body {
 
 // Conteneur principal pour la bannière
 .banniere {
-  position: fixed; // Fixe la bannière en haut de la page
-  top: 0; // Aligne la bannière au haut de la page
-  left: 0; // Aligne la bannière à gauche
-  width: 100%; // Prend toute la largeur de l'écran
-  height: 400px; // Définissez la hauteur souhaitée
-  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image'); // Chemin vers votre image
-  background-size: cover; // L'image couvre toute la bannière
-  background-position: center; // Centre l'image
-  background-repeat: no-repeat; // Empêche la répétition de l'image
-  z-index: 1000; // Assure que la bannière est au-dessus du contenu
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; // Couleur du texte
+  color: white;
   text-align: center;
 }
 
 // Contenu principal de la page
 .contenu {
-  margin-top: 400px; // Espace pour la bannière
+  margin-top: 400px;
   padding: 20px;
+}
 }
