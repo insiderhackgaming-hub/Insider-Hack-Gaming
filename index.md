@@ -11,5 +11,3 @@ layout: default
   <h2>Bienvenue sur Insider Hack Gaming</h2>
   <p>... (le reste de votre texte)</p>
 </div>
-
-
