@@ -1,11 +1,15 @@
-<div style="width: 100%; margin: 0 auto; padding: 0;">
-<img src="/Insider-Hack-Gaming/banniere.png" 
-alt="Insider Hack Gaming banner" 
-style="width: 100%; height: auto; display: block; margin: 0; padding: 0;">
+---
+layout: default
+---
+
+<div class="banniere">
+  <h1>INSIDER HACK GAMING</h1>
+  <p>ONE HACK AT A TIME</p>
 </div>
-# Bienvenue sur Insider Hack Gaming
-... (le reste de votre texte)
 
-
+<div class="contenu">
+  <h2>Bienvenue sur Insider Hack Gaming</h2>
+  <p>... (le reste de votre texte)</p>
+</div>
 
 
