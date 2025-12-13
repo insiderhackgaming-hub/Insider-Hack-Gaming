@@ -1,12 +1,13 @@
+![Insider Hack Gaming banner](/Insider-Hack-Gaming/banniere.png)
+
+<div style="width: 100%; margin: 0 auto; padding: 0;">
+    <img src="/Insider-Hack-Gaming/banniere.png" 
+         alt="Insider Hack Gaming banner" 
+         style="width: 100%; height: auto; display: block; margin: 0; padding: 0;">
+</div>
+
 # Bienvenue sur Insider Hack Gaming
-
-Site dédié aux **FPS**, aux astuces, aux mods...
-
-![Insider Hack Gaming banner](/Insider-Hack-Gaming/banniere.png)  <-- L'image doit être ici !
-
-## 🎯 Ce que tu trouveras ici
-... (le reste du contenu)
-
+... (le reste de votre texte)
 
 
 
