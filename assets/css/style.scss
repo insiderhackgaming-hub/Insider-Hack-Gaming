@@ -1,44 +1,37 @@
-// CSS pour la bannière pleine largeur
-
-// Assurez-vous que le body et le html prennent toute la largeur disponible
+/* =============================================
+   Réinitialisation de base (très important)
+   ============================================= */
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
 }
 
-// Conteneur principal pour la bannière
-.banniere {
-  position: relative; // Utilisez relative pour éviter de fixer la bannière
-  width: 100%; // Prend toute la largeur de l'écran
-  height: 400px; // Définissez la hauteur souhaitée
-  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image'); // Chemin vers votre image
-  background-size: cover; // L'image couvre toute la bannière
-  background-position: center; // Centre l'image
-  background-repeat: no-repeat; // Empêche la répétition de l'image
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white; // Couleur du texte
-  text-align: center;
+/* =============================================
+   Style pour la bannière qui prend toute la largeur
+   ============================================= */
+.banniere-principale {
+  width: 100%; /* Prend toute la largeur de l'écran */
+  height: 400px; /* Vous pouvez changer cette valeur pour l'épaisseur */
+
+  /* C'est ici qu'on met l'image de fond */
+  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image'); /* MODIFIEZ CE CHEMIN ! */
+  background-size: cover; /* L'image couvre toute la surface sans se déformer */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* L'image ne se répète pas */
 }
 
-// Contenu principal de la page
-.contenu {
-  padding: 20px;
+/* =============================================
+   Style pour le reste du contenu de la page
+   ============================================= */
+.contenu-de-la-page {
+  /* On ajoute un padding pour que le texte ne colle pas aux bords */
+  padding: 40px;
+  
+  /* On limite la largeur pour que le texte soit plus facile à lire sur grands écrans */
+  max-width: 800px; 
+  
+  /* On centre le bloc de texte */
+  margin: 0 auto; 
 }
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
 
-  {{ content }}
-
-</body>
-</html>
