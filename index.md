@@ -1,4 +1,8 @@
-<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/banner-light.png">
+  <img alt="Bannière du site Insider Hack Gaming" src="images/banner.png">
+</picture><p align="center">
   <img src="/banniere.png" alt="Bannière Insider Hack Gaming" style="width:100%; max-height:320px; object-fit:cover;">
 </p>
 <div style="text-align: center;">
