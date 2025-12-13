@@ -1,18 +1,22 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+// Ce code SCSS vise à forcer la bannière à prendre toute la largeur (100vw)
 
-/* On crée notre propre bannière en haut du site */
-.ma-banniere-personnalisee {
-  background-image: url('/banniere.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto; /* Largeur à 100%, hauteur automatique */
-  background-position: center top;
-  
-  /* La hauteur est définie pour correspondre à l'image */
-  /* !! IMPORTANT : Change cette valeur !! */
-  height: 300px; 
-    
-  width: 100%;
+// Cibler le conteneur principal du Markdown (qui limite la largeur)
+.markdown-body {
+    max-width: none !important; // Supprime la limite de largeur du corps du contenu
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+// Cible spécifiquement la <div> qui entoure votre image dans index.md
+.markdown-body > div:first-child {
+    // Ces valeurs annulent les marges par défaut que Jekyll ajoute à l'élément
+    margin-left: -20px !important; 
+    margin-right: -20px !important; 
+
+    // C'est la ligne clé : elle force la largeur à la largeur totale du navigateur (Viewport)
+    width: 100vw !important; 
+    max-width: none !important;
 }
