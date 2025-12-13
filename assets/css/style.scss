@@ -1,105 +1,34 @@
-// Ce code SCSS vise à forcer la bannière à prendre toute la largeur (100vw)
+// CSS pour la bannière pleine largeur
 
-// Cibler le conteneur principal du Markdown (qui limite la largeur)
-.markdown-body {
-    max-width: none !important; // Supprime la limite de largeur du corps du contenu
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-// Cible spécifiquement la <div> qui entoure votre image dans index.md
-.markdown-body > div:first-child {
-    // Ces valeurs annulent les marges par défaut que Jekyll ajoute à l'élément
-    margin-left: -20px !important; 
-    margin-right: -20px !important; 
-
-    // C'est la ligne clé : elle force la largeur à la largeur totale du navigateur (Viewport)
-    width: 100vw !important; 
-    max-width: none !important;
-}
----
----
-
-// Ce code SCSS vise à forcer la bannière à prendre toute la largeur (100vw)
-
-// Cibler le conteneur principal du Markdown (qui limite la largeur)
-.markdown-body {
-    max-width: none !important; // Supprime la limite de largeur du corps du contenu
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-// Cible spécifiquement la <div> qui entoure votre image dans index.md
-.markdown-body > div:first-child {
-    // Ces valeurs annulent les marges par défaut que Jekyll ajoute à l'élément
-    margin-left: -20px !important; 
-    margin-right: -20px !important; 
-    
-    // C'est la ligne clé : elle force la largeur à la largeur totale du navigateur (Viewport)
-    width: 100vw !important; 
-    max-width: none !important;
-}
-.banniere {
-  width: 100%;           /* Prend toute la largeur de l'écran */
-  height: 400px;         /* Hauteur fixe */
-  
-  /* Utiliser l'image comme arrière-plan */
-  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image');
-  background-size: cover;    /* L'image couvre toute la div, même si elle doit être rognée */
-  background-position: center; /* Centre la partie visible de l'image */
-  background-repeat: no-repeat; /* Empêche l'image de se répéter */
-}html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.banniere {
-  width: 100%;
-  height: 400px; /* Hauteur fixe */
-  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image');
-  background-size: cover; /* L'image couvre toute la div */
-  background-position: center; /* Centre l'image */
-  background-repeat: no-repeat; /* Empêche la répétition de l'image */
-}
+// Assurez-vous que le body et le html prennent toute la largeur disponible
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100%;
 }
 
+// Conteneur principal pour la bannière
 .banniere {
-  width: 100%;
-  height: 400px;
-  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-}
-
-.banniere h1, .banniere p {
-  margin: 0;
-}
-.banniere {
-  position: fixed; /* Fixe la bannière en haut de la page */
-  top: 0; /* Aligne la bannière au haut de la page */
-  left: 0; /* Aligne la bannière à gauche */
-  width: 100%; /* Prend toute la largeur de l'écran */
-  height: 100px; /* Définissez la hauteur souhaitée */
-  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image'); /* Chemin vers votre image */
-  background-size: cover; /* L'image couvre toute la bannière */
-  background-position: center; /* Centre l'image */
-  background-repeat: no-repeat; /* Empêche la répétition de l'image */
-  z-index: 1000; /* Assure que la bannière est au-dessus du contenu */
+  position: fixed; // Fixe la bannière en haut de la page
+  top: 0; // Aligne la bannière au haut de la page
+  left: 0; // Aligne la bannière à gauche
+  width: 100%; // Prend toute la largeur de l'écran
+  height: 400px; // Définissez la hauteur souhaitée
+  background-image: url('C:\Users\Insiderhackgaming\Desktop\InsiderHackGaming\image'); // Chemin vers votre image
+  background-size: cover; // L'image couvre toute la bannière
+  background-position: center; // Centre l'image
+  background-repeat: no-repeat; // Empêche la répétition de l'image
+  z-index: 1000; // Assure que la bannière est au-dessus du contenu
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; /* Couleur du texte */
+  color: white; // Couleur du texte
   text-align: center;
+}
+
+// Contenu principal de la page
+.contenu {
+  margin-top: 400px; // Espace pour la bannière
+  padding: 20px;
 }
