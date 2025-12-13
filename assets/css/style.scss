@@ -42,3 +42,13 @@
     width: 100vw !important; 
     max-width: none !important;
 }
+.banniere {
+  width: 100%;           /* Prend toute la largeur de l'écran */
+  height: 400px;         /* Hauteur fixe */
+  
+  /* Utiliser l'image comme arrière-plan */
+  background-image: url('chemin/vers/votre/image.jpg');
+  background-size: cover;    /* L'image couvre toute la div, même si elle doit être rognée */
+  background-position: center; /* Centre la partie visible de l'image */
+  background-repeat: no-repeat; /* Empêche l'image de se répéter */
+}
