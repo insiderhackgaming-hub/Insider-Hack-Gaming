@@ -3,8 +3,7 @@
   <source media="(prefers-color-scheme: light)" srcset="images/banner-light.png">
   <img alt="Bannière du site Insider Hack Gaming" src="images/banner.png">
 </picture><p align="center">
-  <img src="/banniere.png" alt="Bannière Insider Hack Gaming" style="width:100%; max-height:320px; object-fit:cover;">
-</p>
+  <img src="images/banner.png" alt="Bannière du site Insider Hack Gaming" style="display:block; width:100%; height:auto; margin:0; padding:0;">
 <div style="text-align: center;">
   <img src="URL_DE_TA_BANNIERE" alt="Bannière" style="max-width: 100%; height: auto;">
 </div>
