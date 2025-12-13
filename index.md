@@ -1,5 +1,3 @@
-![Insider Hack Gaming banner](/Insider-Hack-Gaming/banniere.png)
-
 <div style="width: 100%; margin: 0 auto; padding: 0;">
     <img src="/Insider-Hack-Gaming/banniere.png" 
          alt="Insider Hack Gaming banner" 
